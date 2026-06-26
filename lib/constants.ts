@@ -1,3 +1,20 @@
+export type Centro = {
+  id: number
+  nombre: string
+  estado: string
+  ciudad: string
+  direccion: string
+  responsable: string
+  telefono: string
+  dias: string
+  hora_inicio: string
+  hora_fin: string
+  items: string[]
+  info: string | null
+  activo: boolean
+  created_at: string
+}
+
 export const ESTADOS = [
   'La Guaira','Miranda','Caracas (D.C.)','Aragua','Carabobo',
   'Anzoátegui','Sucre','Bolívar','Zulia','Lara','Táchira','Mérida',
